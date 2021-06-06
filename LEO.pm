@@ -200,9 +200,14 @@ sub _parse_response {
 
     # are we at end of table yet?
     my $next = $self->{tokep}->get_token;
-    $self->{tokep}->unget_token($next) unless $next->[0] eq 'T';
-    $next = $self->{tokep}->get_token;
-    ($next->[0] eq 'E' and $next->[1] eq 'table') ? last : $self->{tokep}->unget_token($next);
+    if( defined $next ) {
+        $self->{tokep}->unget_token($next) unless $next->[0] eq 'T';
+        $next = $self->{tokep}->get_token;
+        ($next->[0] eq 'E' and $next->[1] eq 'table') ? last : $self->{tokep}->unget_token($next);
+    }else{
+        warn("Could not read next token");
+        last;
+    }
 
   }
 
