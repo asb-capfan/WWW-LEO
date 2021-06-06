@@ -326,6 +326,10 @@ None, as this is an object-oriented module.
 
 =item *
 
+L<WWW::Dict::Leo::Org> - a working alternative
+
+=item *
+
 the L<http://dict.leo.org> homepage
 
 =item *
