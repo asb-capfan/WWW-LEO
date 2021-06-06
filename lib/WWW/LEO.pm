@@ -348,27 +348,6 @@ for a fully-fledged program
 
 =back
 
-=item *
-
-LEO clients written in Perl (not using this module):
-
-=over 4
-
-=item *
-
-L<ftp://ftp.daemon.de/scip/Scripts/leo>
-
-=item *
-
-L<http://cgi.xwolf.de/perl/leo.txt>
-
-=item *
-
-L<http://scripts.irssi.de/html/leodict.pl.html> (this is a plugin script for
-the C<irssi> IRC client, see L<http://www.irssi.org>)
-
-=back
-
 =back
 
 =head1 KNOWN BUGS AND OTHER ISSUES
