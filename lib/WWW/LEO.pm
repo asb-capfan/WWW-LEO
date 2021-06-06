@@ -356,6 +356,10 @@ for a fully-fledged program
 
 =item *
 
+The leo.org page layout changed, this module does not work anymore.
+
+=item *
+
 The parsing scheme used to extract the results could probably be improved to be more robust.
 
 =back
