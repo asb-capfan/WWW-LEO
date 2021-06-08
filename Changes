@@ -1,5 +1,13 @@
 Revision history for Perl extension WWW::LEO.
 
-0.01  Tue Oct 29 11:20:53 2002
+0.02    2021-06-09
+    - deprecated the module in favor of
+    - set up GitHub repo: https://github.com/asb-capfan/WWW-LEO
+    - prepare fix or RT #34540
+    - fixed infinite loop in module
+    - moved module to lib folder
+    - fixed a test
+
+0.01    2002-10-29
 	- original version; created by h2xs 1.22 with options -AXn WWW::LEO
 
