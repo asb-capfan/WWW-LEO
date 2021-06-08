@@ -244,6 +244,10 @@ WWW::LEO - Perl interface to the English-German online dictionary at L<http://di
 
 This module provides an interface to the English-German online dictionary located at L<http://dict.leo.org>.
 
+=head1 DEPRECATED
+
+This module is superseded by L<WWW::Dict::Leo::Org>. Please use L<WWW::Dict::Leo::Org>.
+
 =head2 METHODS
 
 =over 4
